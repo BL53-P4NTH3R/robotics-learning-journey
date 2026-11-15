@@ -1,11 +1,23 @@
 # Robotics Learning Resources
 
-Use the official documentation for APIs and version-specific setup. Use textbooks for fundamentals, then validate concepts through implementation.
+Use the official documentation for APIs and version-specific setup. Use textbooks for fundamentals, then validate concepts through implementation. Read actively: solve exercises, write small programs, and record assumptions and results.
 
 ## Mathematics and robotics
-- [Modern Robotics — textbook, videos, and course material](https://modernrobotics.org/)
-- [Modern Robotics code repository](https://github.com/NxRLab/ModernRobotics)
-- [Probabilistic Robotics](https://mitpress.mit.edu/9780262201629/probabilistic-robotics/)
+
+### Foundations (Weeks 1–4)
+- [ROB 101 — Mathematics for Robotics (University of Michigan)](https://grizzle.robotics.umich.edu/files/ROB_101_Textbook_W_23_Grizzle_linked_to_GitHub.pdf). Use Chapter 2, **Vectors, Matrices, and Determinants**, as the introductory reading for Week 1. This is a mathematics bridge, not a complete substitute for a full linear algebra course.
+- [NumPy Quickstart](https://numpy.org/doc/stable/user/quickstart.html). Focus on array creation, shape, indexing, elementwise operations, matrix multiplication with `@`, and basic linear algebra.
+- [Python Tutorial](https://docs.python.org/3/tutorial/). Use the relevant sections as a refresher if functions, loops, lists, and imports are not comfortable yet.
+- [Modern Robotics — textbook, videos, and course material](https://modernrobotics.org/). The book assumes prior linear algebra, calculus, introductory mechanics, and programming. Use it progressively; do not rush into the advanced chapters before the mathematical prerequisites are in place.
+- [Modern Robotics chapter videos](https://modernrobotics.northwestern.edu/nu-gm-book-resource/). Use the videos alongside the matching textbook sections, not as a replacement for working through examples.
+- [Modern Robotics code repository](https://github.com/NxRLab/ModernRobotics).
+- [Probabilistic Robotics](https://mitpress.mit.edu/9780262201629/probabilistic-robotics/). A later reference for Weeks 4 and 31–36; it is not required as the first mathematics text.
+
+### How to sequence the foundations
+1. Week 1: Python/NumPy fluency, vectors, matrices, coordinate-frame meaning, and a basic 2D coordinate conversion.
+2. Week 2: matrix operations, rotation matrices, quaternions, and homogeneous transformations.
+3. Week 3: rigid-body motion and introductory forward/inverse kinematics.
+4. Week 4: probability, Bayes' rule, Gaussian noise, and simple motion/measurement models.
 
 ## ROS 2 and simulation
 - [ROS 2 tutorials](https://docs.ros.org/en/lyrical/Tutorials.html) — select the documentation matching your installed ROS 2 distribution.
@@ -55,7 +67,7 @@ Use the official documentation for APIs and version-specific setup. Use textbook
 - [NVIDIA Developer](https://www.youtube.com/@NVIDIADeveloper)
 
 ## How to use these resources
-1. Start with the relevant textbook or official tutorial.
+1. Start with the relevant textbook section or official tutorial.
 2. Reproduce the smallest working example.
 3. Change one variable or component and observe the effect.
 4. Record commands, versions, expected output, and errors.
