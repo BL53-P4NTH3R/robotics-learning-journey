@@ -2,17 +2,21 @@
 
 **Target effort:** 15–20 hours/week  
 **Approach:** theory + implementation + simulation + documentation  
+**Planned start:** Monday, 16 November 2026  
 **Long-term direction:** robotics research and practical robotics engineering, especially robot perception and vision.
 
+The calendar date is a planning anchor. If the start date changes, shift the weekly dates without skipping or compressing the learning sequence.
+
 ## Phase 1 — Mathematical and robotics foundations (Weeks 1–4)
+
 | Week | Focus | Practical work / evidence |
 |---|---|---|
-| 1 | Python scientific stack; vectors, matrices, coordinate frames | NumPy exercises; transform points between frames |
-| 2 | Linear algebra, rotations, quaternions, homogeneous transforms | Implement 2D/3D transforms and visualise coordinate frames |
-| 3 | Rigid-body motion, forward and inverse kinematics | Work through planar-arm examples; implement forward kinematics |
-| 4 | Probability, Bayes' rule, Gaussian noise, robot motion models | Simulate noisy range/odometry measurements and estimate state |
+| 1 | Python scientific stack; vectors, matrices, and coordinate frames | NumPy exercises; represent points and vectors; implement and test a basic 2D coordinate-frame conversion. Follow the [Week 1 study guide](week-01-study-guide.md). |
+| 2 | Linear algebra, 2D/3D rotations, quaternions, and homogeneous transformations | Implement rotation matrices and homogeneous transforms; compare rotation representations and visualise coordinate frames. |
+| 3 | Rigid-body motion, forward and inverse kinematics | Work through planar-arm examples; implement forward kinematics and explore inverse-kinematics solutions. |
+| 4 | Probability, Bayes' rule, Gaussian noise, and robot motion models | Simulate noisy range/odometry measurements; calculate simple estimates and explain uncertainty. |
 
-**Core reference:** [Modern Robotics](https://modernrobotics.org/).
+**Core references:** [ROB 101 Mathematics for Robotics](https://grizzle.robotics.umich.edu/files/ROB_101_Textbook_W_23_Grizzle_linked_to_GitHub.pdf) for an introductory mathematics bridge; [Modern Robotics](https://modernrobotics.org/) for the robotics concepts developed across this phase and beyond. Modern Robotics assumes prior linear algebra, calculus, mechanics, and programming, so do not treat it as a substitute for those foundations.
 
 ## Phase 2 — ROS 2 fundamentals (Weeks 5–10)
 | Week | Focus | Practical work / evidence |
