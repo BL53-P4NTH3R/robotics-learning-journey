@@ -16,7 +16,7 @@ Plan for approximately **15–20 hours per week**. The 48-week roadmap is a stru
 **Planned start:** Monday, 16 November 2026. Week 1 begins with Python, vectors, matrices, and coordinate-frame foundations. Do not start the ROS 2 phase until the foundations phase has been completed and assessed.
 
 ## Roadmap
-See [the 48-week roadmap](curriculum/48-week-roadmap.md), [Week 1 study guide](curriculum/week-01-study-guide.md), [Week 2 study guide](curriculum/week-02-study-guide.md), [learning resources](curriculum/learning-resources.md), and [assessment rubric](curriculum/assessment-rubric.md).
+See [the 48-week roadmap](curriculum/48-week-roadmap.md), [Week 1 study guide](curriculum/week-01-study-guide.md), [Week 2 study guide](curriculum/week-02-study-guide.md), [Week 3 study guide](curriculum/week-03-study-guide.md), [learning resources](curriculum/learning-resources.md), and [assessment rubric](curriculum/assessment-rubric.md).
 
 ## Repository structure
 - `curriculum/`: roadmap, week-by-week study guides, resources, and assessment criteria
